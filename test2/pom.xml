@@ -27,6 +27,28 @@
 				<configuration>
 				</configuration>
 			</plugin>
+			<plugin>
+        <groupId>org.mule.tools.maven</groupId>
+        <artifactId>mule-maven-plugin</artifactId>
+<version>1.0</version>
+        <configuration>
+          <deploymentType>cloudhub</deploymentType>
+          <muleVersion>${mule.version}</muleVersion> 
+          <username>rsandlya</username> 
+          <password>Rishi90#</password> 
+	<workerType>micro</workerType>
+          <environment>Sandbox</environment> 
+	</configuration>
+	<executions>
+	<execution>
+	<id>deploy</id>
+	<phase>deploy</phase>
+	<goals>
+	<goal>deploy</goal>
+	</goals>
+	</execution>
+	<executions>
+</plugin>
 		</plugins>
 	</build>
 

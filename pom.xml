@@ -25,11 +25,7 @@
 				<version>3.1.6</version>
 				<extensions>true</extensions>
 				<configuration>
-				</configuration>
-			</plugin>
-			<plugin>
-			<configuration>
-        			<cloudHubDeployment>
+					<cloudHubDeployment>
             			<uri>https://anypoint.mulesoft.com</uri>
             			<muleVersion>4.1.5</muleVersion>
             			<username>rsandilya</username>
@@ -40,9 +36,9 @@
                 		<key>value</key>
             </properties>
         </cloudHubDeployment>
-    </configuration>
-
-</plugin>
+				</configuration>
+			</plugin>
+			
 		</plugins>
 	</build>
 

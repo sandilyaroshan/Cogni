@@ -33,7 +33,8 @@
 <version>1.0</version>
         <configuration>
           <deploymentType>cloudhub</deploymentType>
-          <muleVersion>${mule.version}</muleVersion> 
+		<uri>anypoint.mulesoft.com</uri>
+          <muleVersion>4.1.5</muleVersion> 
           <username>rsandlya</username> 
           <password>Rishi90#</password> 
 	<workerType>micro</workerType>
